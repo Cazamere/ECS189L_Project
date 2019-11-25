@@ -1,0 +1,199 @@
+Raelin "" setBackground(SleepingNight) playMusic(Reflection) setBody(Raelin,casualForward,15) setFace(Raelin,puzzledF,15)
+narrator "The noblewoman's words keep coming back to me."
+showScene(false,blur,1,true)
+"She spoke of the stars, of stars being able to fall from the heavens"
+"How could it even be possible?" setBody(Raelin,specialForward,5) move(Raelin,0.52)
+"Nothing has ever fallen from the heavens before."
+"Sneaking past my fellow sleeping novices, I look outside the tiny window in our barracks." faceRight(Raelin) move(Raelin,0.42)
+"The stars are always so clear in the sky."
+"How could one of those distant lights plummet from the heavens?" faceLeft(Raelin) setFace(Raelin,puzzledA) move(Raelin,0.5) setBody(Raelin,casualAngle)
+"I wonder what a star is actually meant to be."
+"They're so far away though... I'll never be able to see one up close."
+
+"If I have to live for another two hundred years to find out what they mean, I will." move(Raelin,0.53) setFace(Raelin,smileA)
+"While they may be seemingly impossible to grasp, I must not let that daunt me."
+"All of these glittering lights in the sky... Perhaps the Empress knows what they are?"
+"This is all too much for me to handle tonight." setFace(Raelin,smileF) setBody(Raelin,casualForward)
+"It's like there's a hive of insects buzzing inside my head, telling me that I need to know with a thousand tiny voices."
+"My farseeing has always come with overwhelming curiosity."
+"I'm always looking where I'm not supposed to."
+"But now my gift cannot reveal any secrets for me." faceRight(Raelin) move(Raelin,0.42) setFace(Raelin,seriousA) setBody(Raelin,specialAngle)
+"Maybe that's why I'm so frustrated by what the noblewoman said to me." move(Raelin,0.46) setFace(Raelin,puzzledA)
+"She's the only one who knows and I can't find a way to figure it out myself."
+"Perhaps I'll never know what the stars truly are or if they mean anything."
+"That does not mean I cannot enjoy the way that they sparkle in the sky." move(Raelin,0.53) setFace(Raelin,smileA) faceLeft(Raelin)
+
+Gwynne "Raelin? You're still awake?" move(Raelin,0,0) setPosition(Gwynne,1,0) faceLeft(Gwynne) faceRight(Raelin)
+
+narrator "Gwynne groggily emerges from her bed."
+"She rubs her eyes before she looks at me again."
+
+Gwynne "You wouldn't be spying on anyone, would you?" move(Gwynne,0.9) setFace(Gwynne,scoldA)
+"It just seems kind of suspicious of you to be awake at this hour..."
+
+narrator "Yet another accusation. I can't get a moment's peace, no matter what time of day it is." move(Raelin,0.1) setFace(Raelin,seriousF) setBody(Raelin,casualForward)
+"Even Gwynne is suspicious of me. It's not fair."
+
+Raelin "I'm not, Gwynne." move(Raelin,0) setFace(Raelin,puzzledF)
+"I just couldn't sleep. I've had a lot to think about."
+
+Gwynne "What are you thinking about, then?" move(Gwynne,1) setBody(Gwynne,specialF) setFace(Gwynne,normF)
+
+Raelin "It's not really something I can talk about."
+
+Gwynne "Then you were spying on someone." move(Gwynne,0.9) setFace(Gwynne,scoldF) setBody(Gwynne,casualF)
+"I should have known. You always deny it."
+
+Raelin "I was not!" move(Raelin,0.1) setFace(Raelin,seriousF) setBody(Raelin,specialForward)
+"You know full well what I look like when I'm farseeing!"
+"You didn't see me doing that, did you?" move(Raelin,0)
+
+Gwynne "But I haven't been awake this whole time." move(Gwynne,1) setBody(Gwynne,specialA) setFace(Gwynne,normA)
+"You could have been doing it before then..."
+
+Raelin "Why are you the one scolding me?" move(Raelin,0.1) setbody(Raelin,casualForward)
+"Shouldn't it be Keira?"
+
+Gwynne "Please lower your voice." move(Gwynne,0.9) setFace(Gwynne,normF) setBody(Gwynne,casualF)
+"You wouldn't want to get caught, would you?"
+
+Raelin "...No. No, I don't." move(Raelin,0.12) setFace(Raelin,puzzledF)
+
+narrator "Why are we even having this conversations?"
+"We're saying nothing worthwhile to each other."
+"All Gwynne is doing is throwing around accusations." move(Raelin,0)
+
+Gwynne "So, come on Raelin..." move(Gwynne,1) setBody(Gwynne,specialA) setFace(Gwynne,normA)
+"What's on your mind?"
+
+Raelin "There was this woman at the castle..." faceLeft(Raelin) move(Raelin,0.2) setBody(Raelin,casualAngle) setFace(Raelin,puzzledA)
+"She talked to me about things I didn't really understand."
+
+Gwynne "What did she talk to you about?"
+"And why did she talk to you in the first place?"
+
+Raelin "I was patrolling the halls of her palace when she lost her pet." faceRight(Raelin)
+"I helped her find it, then she started speaking with me."
+"I don't know why." faceLeft(Raelin) move(Raelin,0.05) setBody(Raelin,specialAngle)
+"She was confiding in me about what she thought about the council and other things." move(Raelin,0) faceRight(Raelin)
+
+Gwynne "What did she look like?" move(Gwynne,0.9)
+
+Raelin "Silver like hair. Vacant, grey eyes..."
+"Pale as a wraith glimmering in moonlight." move(Raelin,0.1) setBody(Raelin,casualForward) setFace(Raelin,puzzledF)
+
+narrator "Gwynne grows silent after hearing that."
+
+Gwynne "I see."
+"What did she talk to you about, Raelin?"
+
+Raelin "She asked me if I thought that stars could fall from the sky."
+"I still don't understand why she asked that, though."
+
+Gwynne "I don't know either." setBody(Gwynne,casualA)
+
+narrator "Gwynne looks troubled by the news." move(Gwynne,1)
+"She's usually quite knowledgeable about topics like these..."
+
+Gwynne "It's no wonder that you're unable to sleep." move(Gwynne,0.9) setBody(Gwynne,casualF) setFace(Gwynne,normF) faceRight(Gwynne)
+"Now I'm not going to be able to sleep either."
+"I love a good mystery." faceLeft(Gwynne) setFace(Gwynne,smile2F)
+
+Raelin"I don't. She was speaking in riddles." move(Raelin,0.15) setFace(Raelin,seriousF)
+"Why can't she just be straight forward and outright say what she means?"
+
+Gwynne "She would have her reasons, I would guess..." move(Gwynne,1)
+"I wish I had the answers, Raelin..." move(Gwynne,0.9) setFace(Gwynne,normA) setBody(Gwynne,specialA)
+
+Raelin "It's alright. I'm sure we'll work this out eventually." move(Raelin,0.02) setFace(Raelin,smileF) setBody(Raelin,specialForward)
+
+Gwynne "Eventually." move(Gwynne,1) setFace(Gwynne,smile2A)
+"It's going to bother us until we work it out though..."
+"Are you ready for a lot of sleepless nights?"
+
+Raelin "Maybe not. But I guess I will just have to cope with it." move(Raelin,0.15) setFace(Raelin,laughF)
+
+Gwynne "Anyway, I think we've talked enough." move(Gwynne,0.9)
+"We should return to our beds soon."
+"Imagine if Keira found us talking at this hour..." faceRight(Gwynne)
+
+Raelin "I think I'd like to continue watching the sky." move(Raelin,0) setFace(Raelin,smileF)
+"Then I'm heading back to bed."
+
+Gwynne "Make sure you aren't caught."
+
+narrator "When she returns to her bed, I can hear her whisper something..."
+"I don't really know what, though."
+
+Gwynne "Raelin, if you spoke to who I think you spoke to..." move(Gwynne,0.93) setFace(Gwynne,normA) setBody(Gwynne,specialA)
+"Then chances are you're going to be her new champion."
+"Nearly every legendary hero links back to her in some way..." move(Gwynne,1)
+"But I don't know for certain if that's really her..."
+"We will have to wait and see." move(Gwynne,0.9)
+
+narrator "I try to draw closer to her in order to listen in." faceLeft(Raelin) move(Raelin,0.05) setFace(Raelin,puzzledF) setBody(Raelin,specialForward)
+"But it's no use. She's already stopped talking."
+"I wonder what it was she was saying?" exit(Gwynne)
+"I suppose it doesn't really matter to me."
+"I think I'll continue to watch the sky..."
+"Will a star really fall?"
+"Probably not. I can't say for certain."
+
+"Wait... What is that?" setCinematic(Cinematics/StarFalling) playMusic(AcrossTheAges)
+"As I look on at the sky, I see a glowing shape." playSound(starFalling)
+"A streak of light is going across the sky, a great trail of luminous ribbons following it."
+"It's enormous too. Almost as if it is swallowing the entire night."
+"One of the old legends I had read as a child described a serpent which ate the night sky."
+"I can't help but think of that as the glowing streak comes down towards the earth."
+"As I look on in wonder, the streak begins to grow larger and larger."
+"Something... is falling from the sky itself."
+"But that couldn't be possible. It can't happen."
+"It's never happened before."
+"But my eyes do not lie. Something is falling."
+"Never before have I seen such a sight."
+"It's burning too. A great, flaming star is dropping from the heavens."
+"The entire sky is filled with its light now. It's as if the sun had appeared in the night sky."
+"My eyes open wide as I recall that nobelwoman's words."
+
+"One day, one of those stars will fall. One day..."
+
+"...She must have known this was coming!"
+"The very ground beneath me shakes as the star draws closer and closer to the ground"
+"Armor plates and weapon racks begin to rattle too."
+"Wait, what if it hits the capital?!"
+"Would we all be destroyed?"
+"No, I won't panic."
+"I have to keep my cool in the face of any situation."
+"There's nothing I can do but hope that it doesn't hit us."
+"To my relief, it doesn't appear to be heading towards the capital."
+"Plummeting towards the earth, I can hear the thundering crack of its impact somewhere beyond the city."
+
+"It's enough to make the entire barracks wake up."
+"Panicked voices echo through the hall, everyone immediately reaching for their armor."
+
+Gwynne "What was that noise, Raelin?!"
+
+Raelin "It was a star falling from the heavens!"
+
+Gwynne "A star? Can that happen?"
+"I've never heard of this happening before."
+
+narrator "It's true. I've never heard of anything falling from the sky like this before."
+"Is it an omen of some sort? I can't say for sure."
+
+Gwynne "You know what this means..."
+
+narrator "It was an omen."
+"The panic in the barracks begins to worsen."
+"Arms and armor are being wildly thrown on."
+"It's not long before everyone is standing to attention."
+
+Gwynne "Raelin, I would get to your bed..."
+"Keira will be walking in here at any moment."
+
+narrator "But I can't tear my eyes away from the sky."
+"A terrible sense of dread fills my entire being."
+"What is going to come of this star?"
+"There's too many questions I don't know the answer to."
+
+setCinematic(null)
